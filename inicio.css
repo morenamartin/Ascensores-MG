@@ -1,0 +1,368 @@
+body{
+    margin: 0;
+}
+
+
+/*PAG 2*/
+
+#FondoDiv{
+    height: 47vw;
+    position: relative;
+}
+
+
+#fondo{
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    filter: brightness(60%);
+    
+}
+
+#logo{
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin: 1em 0 0 2em;
+}
+
+#logo img{
+    width: 5vw;
+}
+
+#titulo{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+#titulo h1{
+    font-size: 4.5em;
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#titulo p{
+    font-size: 1.5em;
+    width: 45vw;
+    text-align: center;
+    margin-top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#titulo a{
+    width: 20vw;
+    height: 4vw;
+    margin-top: 0;
+    background-color: rgb(1, 1, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
+}
+
+/*PAG 2*/
+
+#linea{
+    border-top: 2px solid blue;
+    width: 5vw;
+    margin: auto;
+    margin-top: 3vw;
+}
+
+#SERVICIOS{
+   margin-top: 2vw; 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+
+#tituloServicios{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+}
+
+
+.cadaServicio{
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.titulo h3{
+    margin-top: 0;
+    width: 22vw;
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-align: justify;
+}
+
+/*PAG 3*/
+
+#GeneralSobreNosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3vw;
+    background-color: rgb(236, 236, 236);
+    padding: 7vw;
+    flex-wrap: wrap;
+}
+
+#tituloSobreNosotros{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+}
+
+#textos{
+    width: 30vw;
+}
+
+#textoUnoSobreNosotros{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+#textoDosSobreNosotros{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+#lineaSobreNosotros{
+    border-top: 2px solid blue;
+    width: 3vw;
+}
+
+#imagenSobreNosotros{
+    display: flex;
+
+}
+
+/*PAG 4*/
+
+#DivTituloConsorciosYEmpresasYNormativa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lineaConsorciosYEmpresasYNormativa{
+    border-top: 2px solid blue;
+    margin-top: 3vw;
+    width: 5vw;
+}
+
+#tituloConsorciosYEmpresasYNormativa{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+}
+
+#GeneralConsorcios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.DivImagenesConsorcios{
+    width: 24.3vw;
+    position: relative;
+}
+
+
+.ImagenEdificio{
+    width: 24.3vw;
+    height: 20vw;
+    display: block;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content:hover{
+    opacity: 1;
+}
+
+.content h3{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/*PAG 5*/
+
+#EmpresasGeneral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5vw;
+}
+
+.LogoEmpresa{
+    width: 10vw;
+    height: 4vw;
+}
+
+.imagenLogoEmpresa{
+    width: 100%;
+    height: 100%;
+}
+
+/*PAG 6*/
+
+#normativa{
+    background-color: rgb(236, 236, 236);
+    height: 40vw;
+}
+
+/*PAG 7*/
+
+#ContactosGeneral{
+    background-color: #3d73b8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2vw 0 2vw;
+}
+
+#Contactos{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#Contactos h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+
+#Contactos h4{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#Contactos p{
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#LogoPagina{
+    width:70vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+
+@media screen and (max-width:800px){
+/*INICIO*/
+    #FondoDiv{
+        width: 100%;
+        height: 100vw;
+    }
+    
+    #fondo{
+        width: 100%;
+    }
+    
+    #titulo h1{
+        font-size: 2em;
+    }
+
+    #titulo p{
+        font-size: 1em;
+        width: 70vw;
+    }
+
+    #titulo a{
+        font-size: 1em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 43vw;
+        height: 15vw;
+    }
+
+/*SERVICIOS*/
+
+    #serviciosGeneral{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #SERVICIOS{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+    }
+
+    .cadaServicio{
+        width: 100%;
+    }
+
+    .titulo h3{
+        width: 90vw;
+    }
+
+    .texto{
+        width: 80%;
+    }
+
+/*SOBRE NOSOTROS*/
+
+    #GeneralSobreNosotros{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #tituloSobreNosotros{
+        width: 50vw;
+    }
+
+    #textoUnoSobreNosotros{
+        width: 70vw;
+    }
+
+    #textoDosSobreNosotros{
+        width: 70vw;
+    }
+
+    #imagenSobreNosotros{
+        width: 70vw;
+    }
+}
